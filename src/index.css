@@ -1,0 +1,211 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.Toastify__toast-theme--light {
+  background: #ffa500 !important;
+  opacity: 25 !important;
+  color: white !important;
+  font-weight: 600;
+}
+.trandings-coins {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  min-height: 60vh;
+  margin-top: 2rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 80%;
+  padding: 2rem;
+}
+.trandings {
+  background: #323232;
+  padding: 10px;
+  border-radius: 10px;
+  width: 45%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  position: relative;
+}
+.trandings img {
+  border-radius: 50%;
+  height: auto;
+  width: 100px;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.table-div {
+  overflow: auto;
+}
+.save-div{
+  overflow: auto;
+}
+.table-responsive {
+  min-width: 950px;
+  width: 100%;
+}
+.save-div::-webkit-scrollbar {
+  background-color: #212121;
+  height: 5px;
+  cursor: pointer;
+}
+.save-div::-webkit-scrollbar-thumb {
+  background-color: #14ffec;
+  border-radius: 6px;
+ 
+
+}
+.chart-main-div::-webkit-scrollbar-thumb {
+  background-color: #14ffec;
+  border-radius: 6px;
+
+}
+.chart-main-div::-webkit-scrollbar {
+  background-color: #212121;
+  height: 5px;
+  cursor: pointer;
+}
+.table-div::-webkit-scrollbar-thumb {
+  background-color: #14ffec;
+  border-radius: 6px;
+}
+.table-div::-webkit-scrollbar {
+  background-color: #212121;
+  height: 5px;
+  cursor: pointer;
+}
+.btn-chart {
+  flex-wrap: wrap;
+}
+@media (max-width: 1400px) {
+  .models-div {
+    width: 70%;
+  }
+  .btn-wrp {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1200px) {
+  .home {
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+  }
+  .table-div {
+    width:100%;
+  }
+  .save-div{
+    width: 95%;
+  }
+  .filterpage {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+    padding: 10px;
+  }
+  .input-div {
+    width: 80%;
+    margin: auto;
+  }
+  .form-input {
+    width: 90%;
+  }
+  .navgation {
+    width: 70%;
+    margin-top: 6rem;
+  }
+  .models-div {
+    width: 80%;
+    height: auto;
+  }
+  .chart-main-div {
+    flex-direction: column-reverse;
+    gap: 20px;
+    overflow: auto;
+    height: 600px;
+  }
+  .firstchar-div {
+    width: 100%;
+  }
+  .secondchart-div {
+    width: 100%;
+  }
+}
+@media (max-width: 850px) {
+  .trandings {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .btn-div {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0px;
+  }
+  .trandings img {
+    width: 60px;
+    top: -30;
+  }
+  .pagin {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .prpage {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navgation {
+    width: 90%;
+    margin-top: 6rem;
+  }
+  .form-btns {
+    margin: 0px !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .input-div {
+    width: 100%;
+    margin: auto;
+  }
+  .form-input {
+    width: 100%;
+    margin: 0px;
+  }
+  .labels {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 450px) {
+  .reset-btn {
+    top: 55px;
+  }
+  .pricename {
+    font-size: 15px;
+  }
+  .imgprice {
+    width: 2rem;
+  }
+  .chart-main-div {
+    gap: 120px;
+  }
+  .mrkit-flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .firstchar-div {
+    height: auto;
+  }
+  .main-div-tran h3 span {
+    font-size: 13px !important;
+  }
+  .trandings-coins {
+    padding: 10px;
+    width: 90%;
+  }
+}
