@@ -1,6 +1,6 @@
 
  <h1> Crypto Bucks  </h1>
- <p>website link:  <a href="https://crypto-coins-website.netlify.app/" target='_blank'  rel="noreferrer" ></a></P>
+ <p>website link:  <a href="https://crypto-coins-website.netlify.app/" target='_blank'  rel="noreferrer" >crypto-coins-website.netlify.app</a></P>
 
 <img src="./src/assets/home.png" alt="image"/>
 <br/>
